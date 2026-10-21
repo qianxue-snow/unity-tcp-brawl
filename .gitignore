@@ -1,0 +1,46 @@
+# Unity 生成物（可由编辑器重建，不入库）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+/[Ee]xportedObj/
+/UnityPackageManager/
+/AssetStoreTools*
+.sysinfo.txt
+
+# IDE / 工具缓存
+/.vs/
+/.vscode/
+/.idea/
+/.vsconfig
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/*.opendb
+/*.VC.db
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地备份 / AI 工具本地配置（不入库）
+*.tar.gz
+/.claude/
+
+# 服务端（仅合并仓用到）
+/server/**/bin/
+/server/**/obj/
+/server/*.csproj.user
+/server/*.suo
